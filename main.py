@@ -36,7 +36,7 @@ score_y = 10
 bird_x = 50
 bird_y = 300
 bird_velocity = -1
-# DONE 1: Tweaking the physicss
+# DONE 1: Tweaking the physics
 # Looks like the player is falling too quickly not giving a change to flap it's wing, maybe tweak around with the value of this variable
 gravity = 0.2
 jump = -7
