@@ -64,7 +64,7 @@ running = True
 while running:
     # TODO 6: Changing the name!
     # D'oh! This is not yout name isn't follow the detailed instructions on the PDF to complete this task.
-    name = "Homer Simpson"
+    name = "Kairy"
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             running = False
@@ -95,7 +95,7 @@ while running:
         if pipe_x < -70:
             pipe_x = 400
             pipe_height = random.randint(100, 400)
-            # TODO 4: Fixing the scoring
+            # DONE 4: Fixing the scoring
             # When you pass through the pipes the score should be updated to the current score + 1. Implement the
             # logic to accomplish this scoring system.
             score += 1
