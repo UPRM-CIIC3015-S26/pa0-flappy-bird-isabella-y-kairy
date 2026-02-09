@@ -1,5 +1,9 @@
+import os
+
 import pygame, random, sys
 pygame.init()
+pygame.mixer.init()
+
 '''
 Welcome to PA0 – Flappy Bird! Throughout this code, you are going to find a recreation of a game you have probably
 heard of before. This is an introductory assignment designed to help you familiarize yourself with what you can expect 
@@ -49,7 +53,7 @@ pipe_width = 70
 # play around with the pipe_gap variable so that its big enough for the player to pass through
 pipe_gap = 20
 pipe_height = random.randint(100, 400)
-# TODO 2.2: The too fast problem
+# DONE 2.2: The too fast problem
 # The pipes are moving way too fast! Play around with the pipe_speed variable until you find a good
 # speed for the player to play in!
 pipe_speed = 3
@@ -57,6 +61,8 @@ pipe_speed = 3
 score = 0
 game_over = False
 game_started = False
+
+score_sound = pygame.mixer.Sound('scoresound.wav')
 
 clock = pygame.time.Clock()
 
