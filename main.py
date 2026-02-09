@@ -1,4 +1,4 @@
-import pygame, random
+import pygame, random, sys
 pygame.init()
 '''
 Welcome to PA0 – Flappy Bird! Throughout this code, you are going to find a recreation of a game you have probably
@@ -35,11 +35,12 @@ score_y = 10
 # Player Variables -->
 bird_x = 50
 bird_y = 300
-bird_velocity = 0
-# TODO 1: Tweaking the physics
+bird_velocity = -1
+# DONE 1: Tweaking the physics
 # Looks like the player is falling too quickly not giving a change to flap it's wing, maybe tweak around with the value of this variable
-gravity = 9.81
-jump = -10
+gravity = 0.2
+jump = -7
+
 # Pipe Variables -->
 pipe_x = 400
 pipe_width = 70
