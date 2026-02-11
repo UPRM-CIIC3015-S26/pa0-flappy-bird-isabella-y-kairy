@@ -62,8 +62,6 @@ score = 0
 game_over = False
 game_started = False
 
-score_sound = pygame.mixer.Sound('scoresound.wav')
-
 clock = pygame.time.Clock()
 
 running = True
@@ -106,6 +104,8 @@ while running:
             # When you pass through the pipes the score should be updated to the current score + 1. Implement the
             # logic to accomplish this scoring system.
             score += 1
+            score_sound = pygame.mixer.Sound('scoresound.wav')
+            score_sound.play()
 
         if bird_y > 600 or bird_y < 0:
             game_over = True
