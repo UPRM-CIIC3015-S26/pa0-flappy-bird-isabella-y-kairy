@@ -14,14 +14,14 @@ The project is designed as an introductory programming assignment (PA0). Most of
 ## 👥 Team Information
 
 ### Partner #1
-- **Name: Kairymar Solivan Velez**
-- **Student Number: 802-24-0368**
-- **Email: kairymar.solivan@upr.edu**
-
-### Partner #2
-- **Name: Isabella Baniaga Velazquez**
+- **Name:**
 - **Student Number:**
 - **Email:**
+
+### Partner #2
+- **Name:** Isabella Baniaga
+- **Student Number:** 802257698
+- **Email:** isabella.baniaga@upr.edu
 
 ## ⭐ Bonus Features (Optional)
 List and briefly describe any additional features or enhancements implemented beyond the basic requirements.
